@@ -3,7 +3,7 @@ import os
 import shutil
 
 INSTALLED_PATH = '/Applications/League of Legends.app/Contents/LoL/RADS/projects/league_client/releases'
-INSTALLED_PATH = '/Users/jongwony/Downloads'
+# INSTALLED_PATH = '/Users/jongwony/Downloads'
 
 replaces = [
     {'origin': r'rso_platform_id: OC1', 'old_new': ('OC1', 'KR')},
