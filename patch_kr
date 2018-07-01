@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os
 import shutil
+import subprocess
+
 
 INSTALLED_PATH = '/Applications/League of Legends.app/Contents/LoL/RADS/projects/league_client/releases'
 # INSTALLED_PATH = '/Users/jongwony/Downloads'
@@ -66,5 +68,7 @@ if __name__ == '__main__':
     else:
         print('system.yaml.backup exists!')
 
-    os.popen('open {}'.format(os.path.join(recent_patch_dir, 'deploy', 'LeagueClient.app')))
+    cmd = 'open "{}"'.format(os.path.join(recent_patch_dir, 'deploy', 'LeagueClient.app'))
+    print(cmd, 'start...')
+    subprocess.Popen(cmd, shell=True)
 
