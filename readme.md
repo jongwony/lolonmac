@@ -13,7 +13,7 @@ League of Legend가 `/Applications` 경로에 있어야 합니다.
 - Clone this repository
 
 ```
-python3 ch_yaml
+./patch_kr
 ```
 
 - League of Legend 실행
