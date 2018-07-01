@@ -66,5 +66,5 @@ if __name__ == '__main__':
     else:
         print('system.yaml.backup exists!')
 
-    os.popen('open {}'.format(os.path.join(recent_patch_dir, 'deploy', 'leagueClient')))
+    os.popen('open {}'.format(os.path.join(recent_patch_dir, 'deploy', 'LeagueClient.app')))
 
